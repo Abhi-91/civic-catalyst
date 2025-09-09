@@ -55,3 +55,23 @@ flowchart TD
     D --> E[GitHub REST API]
     E --> F[AI Summarization]
     F --> G[Frontend UI: Display curated issues]
+
+
+
+Quick Start
+Clone the repo
+git clone https://github.com/your-username/civic-catalyst.git
+cd civic-catalyst
+
+Setup server
+cd server
+npm install
+npm start
+
+Setup frontend
+cd web
+npm install
+npm run dev
+
+
+Then visit: http://localhost:5173
