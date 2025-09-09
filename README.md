@@ -45,19 +45,6 @@ Civic Catalyst aims to bridge this gap by:
 
 ---
 
-## 🖼️ Demo Flow Diagram  
-
-```mermaid
-flowchart TD
-    A[User enters skills] --> B[Frontend: React.js]
-    B --> C[Backend: Express.js]
-    C --> D[Descope Auth → GitHub Token]
-    D --> E[GitHub REST API]
-    E --> F[AI Summarization]
-    F --> G[Frontend UI: Display curated issues]
-
-
-
 Quick Start
 Clone the repo
 git clone https://github.com/your-username/civic-catalyst.git
@@ -75,3 +62,18 @@ npm run dev
 
 
 Then visit: http://localhost:5173
+
+
+## 🖼️ Demo Flow Diagram  
+
+```mermaid
+flowchart TD
+    A[User enters skills] --> B[Frontend: React.js]
+    B --> C[Backend: Express.js]
+    C --> D[Descope Auth → GitHub Token]
+    D --> E[GitHub REST API]
+    E --> F[AI Summarization]
+    F --> G[Frontend UI: Display curated issues]
+
+
+
