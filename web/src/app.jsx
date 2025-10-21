@@ -6,6 +6,7 @@ export default function App() {
   const [results, setResults] = useState([]);
   const [error, setError] = useState(null);
 
+  // Function to handle the "Find issues" button click
   async function handleFind() {
     setLoading(true);
     setError(null);
@@ -21,10 +22,12 @@ export default function App() {
     } catch (err) {
       setError(err.message);
     } finally {
+      // Stop loading regardless of success or failure
       setLoading(false);
     }
   }
 
+  // JSX to render the UI
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', padding: 24 }}>
       <h1>Civic Catalyst — Quick Demo</h1>
