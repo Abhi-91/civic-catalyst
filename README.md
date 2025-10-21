@@ -45,23 +45,22 @@ Civic Catalyst aims to bridge this gap by:
 
 ---
 
-Quick Start
-Clone the repo
-git clone https://github.com/your-username/civic-catalyst.git
-cd civic-catalyst
+## Quick Start
+1. **Clone the repo** - "git clone https://github.com/your-username/civic-catalyst.git"
+2. **cd civic-catalyst**
 
-Setup server
-cd server
-npm install
-npm start
+3. **Setup server** -
+     cd server,
+     npm install,
+     npm start
 
-Setup frontend
-cd web
-npm install
-npm run dev
+4. **Setup frontend** -
+    cd web,
+    npm install,
+    npm run dev,
 
 
-Then visit: http://localhost:5173
+5. **Then visit** - http://localhost:5173
 
 
 ## 🖼️ Demo Flow Diagram  
